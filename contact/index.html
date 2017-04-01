@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lan="en">
+        <title>ChefBox | Adresa și Formular de Contact </title>
+        <meta name="description" content="Adresa Pick-up Truck ChefBox, Formularul de contact unde ne poți scrie mesajul tău">
+        <link rel="shortcut icon" href="../assets/Images/Favicon%20ChefBox2.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="../assets/style/style.css">
+        <link rel="stylesheet" type="text/css" href="../assets/libraries/bootstrap/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default navigatie">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+
+                    <div itemscope>
+                        <a href ="../index.html"><img itemprop="image" class="logoChefBox" src="../assets/images/LogoChefBox.jpg" title="Logo ChefBox" alt="Logo ChefBox"></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse  navbar-right" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../Meniu/index.html">Meniul Zilei</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Galerie Foto
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../GalerieFoto/MeniulConfort/index.html">Meniul Confort</a></li>
+                                <li><a href="../GalerieFoto/MeniulLight/index.html">Meniul Light</a></li>
+                                <li><a href="../GalerieFoto/MeniulVeggie/index.html">Meniul Veggie</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Noutati/index.html">Noutăți</a></li>
+                        <li  class="active"><a href="index.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <h1>Contact</h1>
+        <div class="container zonaAdresa">
+            <div class="col-md-5 col-md-offset-1">
+                <h4><strong>Pick-up point Food Truck ChefBox</strong></h4>
+                <address>
+                    <h4>Adresa:</h4>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Strada Buzești, 57-59, 011015, București</p>           
+                    <p><span class="glyphicon glyphicon-phone"></span> +40 723 973 025</p>
+                </address>
+            </div>
+            <div class="col-md-5">
+                <div id="map" style="width:100%;height:300px"></div>
+            </div>
+        </div>
+        <section id="formular" style="border-top:1px solid #CCC">
+            <div class="container">
+                <div class="col-md-12">
+                    <h2>Formular de contact</h2>
+                    <form action="savetofile.php" method="post" style="margin-top: 50px" id="formularContact">
+                        <div id="messages"></div>
+                        <div id="grupNume" class="form-group">
+                            <label for="nume">Nume: </label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i> </span>
+                                <input type="text" class="form-control" name="nume" id="nume" placeholder="Nume Prenume"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"> Email: </label>
+                            <div class="input-group">
+                                <span class="input-group-addon">@</span>
+                                <input type="email" class="form-control" name="email" id="email"
+                                       placeholder="email@example.com"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefon">Telefon:</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i> </span>
+                                <input type="tel" id="telefon" name="telefon" class="form-control"
+                                       placeholder="+(00)000-000-000"
+                                       pattern="[\+][\(]\d{2}[\)]\d{3}[\-]\d{3}[\-]\d{3}"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="mesaj">Mesaj: </label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i> </span>
+                                <textarea class="form-control" rows="5" name="mesaj" id="mesaj"> </textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary butonSubmit">Trimite</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+      <footer>
+            <div  class="container">
+                <div class="row">
+                     <div class="col-md-4 col-sm-4 col-xs-12">
+                        <br>
+                        <p><a href="https://www.facebook.com/ChefBox-1317254118296938/?fref=ts" target="_blank"><span><i class="fa fa-facebook-official" aria-hidden="true"></i></span> Facebook</a></p>
+                        <p><a href="https://www.instagram.com/_chefbox_/" target="_blank"><span><i class="fa fa-instagram" aria-hidden="true"></i></span> Instagram</a></p>
+                        <p><a href="https://plus.google.com/u/0/b/104617051027752503585/104617051027752503585/about?_ga=1.187387752.1927356369.1479027495" target="_blank"><span><i class="fa fa-google-plus-official" aria-hidden="true"></i></span> Google Plus</a></p>
+
+
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <br>
+                        <p>Program:</p>
+                        <p>Luni-Vineri 12:00 - 15:00</p></div>
+
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <br>
+                        <p>Partener: <span><a href="https://www.facebook.com/antonsiprietenii/" target="_blank">Anton</a></span></p>
+                    </div>
+
+                   
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script src="../assets/libraries/jquery/jquery-1.12.4.min.js"></script>
+        <script src="../assets/libraries/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../assets/script/animatii.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA9PgIlU3x_9CAxZwD7z_NY9t6GLRN0aU&callback=myMap"></script>
+
+    </body>
+
+</html>

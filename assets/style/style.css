@@ -1,0 +1,245 @@
+.logoChefBox {
+    padding-right: 10px;
+    margin-right: 14px;
+}
+
+.centru {
+    margin: 0 auto;  
+    border: 1px #dadada solid;
+    padding: 10px;
+} 
+
+.intro {
+    background-color: #f1f1f1;
+    border-bottom: 1px double #dadada;
+}
+
+nav>div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+h1, h2, h3, h4, p {
+    text-align: center;
+    padding: 15px;
+    color: #575757 !important;
+    font-family: Lora !important;
+    white-space: pre-line;
+}
+
+h1 {
+    font-size: 2em !important;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.4em !important;
+    font-weight: bold !important;
+}
+
+h3 {
+    font-size: 1.2em !important;
+    padding-bottom: 0;
+    font-weight: bold !important;
+}
+
+p{
+    font-size: 1em;
+}
+#testimoniale {
+    background-image: url("../images/Legume_opti.jpg");
+    background-attachment: fixed;
+}
+
+.testimonial {
+    padding-top: 40px;
+}
+
+li>a {
+    padding: 20px !important;
+    font-size: 1.2em;
+}
+
+.testimonial p {
+    font-weight: bold;
+}
+
+.navigatie {
+    margin: 0 !important;
+}
+
+.invizibil {
+    display: none !important;
+}
+
+q {
+    padding: 15px;
+    font-size: 1em !important;
+    text-align: center;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer, footer p, footer span, footer a {
+    color: white !important;
+    background: #556B2F;
+    padding: 10px;
+}
+
+address p {
+    text-align: center;
+    padding: 0;
+}
+
+.zonaAdresa {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.butonSubmit {
+    background-color: #dadada !important;
+    color: #575757 !important;
+    margin-bottom: 30px !important;
+}
+
+article>p, aside>p {
+    text-align: justify;
+
+}
+
+article>img, video {
+    float: left;
+    margin: 20px !important;
+}
+
+article:first-of-type {
+    border-right: 1px solid #dadada !important;
+}
+
+article:last-of-type {
+    margin-top:35px;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px !important;
+    margin: 10px !important;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+
+.mancare {
+    background-color: #f2f2f2;
+    min-height: 270px;
+
+}
+
+.fadeIn {
+    background-size: cover;
+    -webkit-animation: slider 12s infinite;
+    -moz-animation: slider 12s infinite;
+    -o-animation: slider 12s infinite;
+    animation: slider 12s infinite;
+}
+
+@-webkit-keyframes slider {
+    0% {
+        background-image: url("../images/slider1_opti.jpg");
+    }
+    33%{
+        background-image: url("../images/slider2_opti.jpg");
+    }
+    66%{
+        background-image: url("../images/slider3_opti.jpg");
+    }
+    100% {
+        background-image: url("../images/slider1_opti.jpg");
+    }
+}
+
+@-moz-keyframes slider {
+    0% {
+        background-image: url("../images/slider1_opti.jpg");
+    }
+    33%{
+        background-image: url("../images/slider2_opti.jpg");
+    }
+    66%{
+        background-image: url("../images/slider3_opti.jpg");
+    }
+    100% {
+        background-image: url("../images/slider1_opti.jpg");
+    }
+}
+
+@-o-keyframes slider {
+    0%{
+        background-image: url("../images/slider1_opti.jpg");
+    }
+    33%{
+        background-image: url("../images/slider2_opti.jpg");
+    }
+    66%{
+        background-image: url("../images/slider3_opti.jpg");
+    }
+    100%{
+        background-image: url("../images/slider1_opti.jpg");
+    }
+}
+
+@keyframes slider {
+    0%{
+        background-image: url("../images/slider1_opti.jpg");
+    }
+    33%{
+        background-image: url("../images/slider2_opti.jpg");
+    }
+    66%{
+        background-image: url("../images/slider3_opti.jpg");
+    }
+    100%{
+        background-image: url("../images/slider1_opti.jpg");
+    }
+}
+
+@media (min-width: 320px) {
+    .fadeIn {
+        width: 400px !important;
+        height:200px !important;;
+    }
+}
+@media (min-width: 480px) {
+    .fadeIn {
+        width: 500px !important;
+        height:250px !important;;
+    }
+}
+
+@media (min-width: 768px) {
+    .fadeIn {
+        width: 750px !important;
+        height:400px !important;
+    }
+}
+@media (min-width: 992px) {
+    .fadeIn {
+        width: 1170px !important;
+        height:400px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .fadeIn {
+        width: 1170 !important;
+        height:450px !important;
+    }
+

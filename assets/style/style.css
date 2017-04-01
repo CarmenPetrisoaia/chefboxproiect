@@ -1,6 +1,7 @@
 .logoChefBox {
     padding-right: 10px;
     margin-right: 14px;
+    margin-left: 14px;
 }
 
 .centru {
@@ -9,9 +10,16 @@
     padding: 10px;
 } 
 
+.contCarousel {
+    padding-left:0px !important;
+    padding-right: 0px !important;
+}
+
 .intro {
     background-color: #f1f1f1;
     border-bottom: 1px double #dadada;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 nav>div {
@@ -32,6 +40,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+
 h2 {
     font-size: 1.4em !important;
     font-weight: bold !important;
@@ -46,6 +55,7 @@ h3 {
 p{
     font-size: 1em;
 }
+
 #testimoniale {
     background-image: url("../images/Legume_opti.jpg");
     background-attachment: fixed;
@@ -143,103 +153,35 @@ table {
 
 }
 
-.fadeIn {
-    background-size: cover;
-    -webkit-animation: slider 12s infinite;
-    -moz-animation: slider 12s infinite;
-    -o-animation: slider 12s infinite;
-    animation: slider 12s infinite;
-}
-
-@-webkit-keyframes slider {
-    0% {
-        background-image: url("../images/slider1_opti.jpg");
-    }
-    33%{
-        background-image: url("../images/slider2_opti.jpg");
-    }
-    66%{
-        background-image: url("../images/slider3_opti.jpg");
-    }
-    100% {
-        background-image: url("../images/slider1_opti.jpg");
-    }
-}
-
-@-moz-keyframes slider {
-    0% {
-        background-image: url("../images/slider1_opti.jpg");
-    }
-    33%{
-        background-image: url("../images/slider2_opti.jpg");
-    }
-    66%{
-        background-image: url("../images/slider3_opti.jpg");
-    }
-    100% {
-        background-image: url("../images/slider1_opti.jpg");
-    }
-}
-
-@-o-keyframes slider {
-    0%{
-        background-image: url("../images/slider1_opti.jpg");
-    }
-    33%{
-        background-image: url("../images/slider2_opti.jpg");
-    }
-    66%{
-        background-image: url("../images/slider3_opti.jpg");
-    }
-    100%{
-        background-image: url("../images/slider1_opti.jpg");
-    }
-}
-
-@keyframes slider {
-    0%{
-        background-image: url("../images/slider1_opti.jpg");
-    }
-    33%{
-        background-image: url("../images/slider2_opti.jpg");
-    }
-    66%{
-        background-image: url("../images/slider3_opti.jpg");
-    }
-    100%{
-        background-image: url("../images/slider1_opti.jpg");
-    }
-}
-
 @media (min-width: 320px) {
     .fadeIn {
-        width: 400px !important;
-        height:200px !important;;
+        width: 430px !important;
+        height:170px !important;;
     }
 }
 @media (min-width: 480px) {
     .fadeIn {
-        width: 500px !important;
+        width: 700px !important;
         height:250px !important;;
     }
 }
 
 @media (min-width: 768px) {
     .fadeIn {
-        width: 750px !important;
-        height:400px !important;
+        width: 940px !important;
+        height:300px !important;
     }
 }
 @media (min-width: 992px) {
     .fadeIn {
-        width: 1170px !important;
+        width: 1250px !important;
         height:400px !important;
     }
 }
 
 @media (min-width: 1200px) {
     .fadeIn {
-        width: 1170 !important;
-        height:450px !important;
+        width: 1250px !important;
+        height:470px !important;
     }
 
